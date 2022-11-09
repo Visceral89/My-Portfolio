@@ -3,6 +3,9 @@
 :root{
   --bg-color: #262626;
   --text-color: #EAEAEA;
+
+  --font-size-p: 16px;
+  --font-size-h1: 96px; 
 }
 
 html,
@@ -10,6 +13,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'JetBrains Mono', monospace;
+  font-size: var(--font-size-p);
 }
 
 a {

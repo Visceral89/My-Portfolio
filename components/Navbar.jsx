@@ -11,7 +11,7 @@ function navbar() {
                 Contact
             </li>
             <li>
-                Resume
+                Resumé
             </li>
         </ul>
     </nav>
