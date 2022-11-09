@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em 50px;
+
+    /* Fonts */ 
+    color: var(--text-color);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    font-style: normal;
+}
+
+.navbar li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px;
+}
