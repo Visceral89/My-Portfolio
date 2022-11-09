@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import style from '../styles/index.module.css'
 import Navbar from '../components/Navbar'
 
 export default function Home() {
@@ -19,8 +19,15 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      {/* Head = Done */}
-      {/* Navbar */}
+
+      <div className={style.title}>
+        <h1>Rasmus Bremholm<span className={style.portfolio}>Portfolio_</span></h1>
+        {/* Here goes the navigation thing */}
+        <div className={style.usp}>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A asperiores cumque, assumenda error soluta nemo nostrum voluptate temporibus exercitationem! Optio harum assumenda, commodi ducimus quod dicta modi tempora nesciunt doloremque!</p>
+        </div>
+      </div>
+
       {/* Header
             H1
               Onepage Navigation
