@@ -19,10 +19,15 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <section>
+      <section className={style.header}>
         <div className={style.title}>
-          <h1>Rasmus Bremholm<span className={style.portfolio}>Portfolio_</span></h1>
-          {/* Here goes the navigation thing */}
+          <h1><span>Rasmus Bremholm</span><span className={style.portfolio}><br />Portfolio_</span></h1>
+            <div className={style.menu}>
+              <p>3D</p>
+              <p>Frontend</p>
+              <p>CAD</p>
+              <p>Education</p>
+            </div>
           <div className={style.usp}>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A asperiores cumque, assumenda error soluta nemo nostrum voluptate temporibus exercitationem! Optio harum assumenda, commodi ducimus quod dicta modi tempora nesciunt doloremque!</p>
           </div>

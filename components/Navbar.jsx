@@ -6,7 +6,7 @@ function navbar() {
     <nav className={style.navbar}>
         <ul className={style.list}>
             <li>
-                <Link href="/">About</Link>
+                About
             </li>
             <li>
                 Contact

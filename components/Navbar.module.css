@@ -18,6 +18,11 @@
 .navbar li{
     text-decoration: none;
     list-style: none;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    color: var(--text-hover-color);
 }
 
 .list{
@@ -25,5 +30,6 @@
     flex-direction: row;
     gap: 30px;
     padding: 0px;
+
 }
 
