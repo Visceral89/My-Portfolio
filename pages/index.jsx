@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <section className={style.section-main}>
+      <section>
         <div className={style.title}>
           <h1>Rasmus Bremholm<span className={style.portfolio}>Portfolio_</span></h1>
           {/* Here goes the navigation thing */}
