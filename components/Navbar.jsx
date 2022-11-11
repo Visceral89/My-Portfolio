@@ -6,13 +6,13 @@ function navbar() {
     <nav className={style.navbar}>
         <ul className={style.list}>
             <li>
-                About
+                <Link href="/">About</Link>
             </li>
             <li>
-                Contact
+                <Link href="/">Contact</Link>
             </li>
             <li>
-                Resumé
+                <Link href="/">Resumé</Link>
             </li>
         </ul>
     </nav>
